@@ -1,0 +1,33 @@
+.btn {
+    background: #111838;
+    color: #eaeaea;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    font-size: medium;
+}
+
+app-modal {
+    display: none;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: #aaa solid 1px;
+}
+.description {
+    font-size: 12;
+    color: #aaa;
+}
+.footer {
+    padding: 20px;
+}
+
+.footer:hover {
+    background: #eee;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
